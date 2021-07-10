@@ -1,0 +1,420 @@
+/* Body */
+
+@font-face {
+    font-family: 'edoregular';
+    src: url('polices/edo-webfont.eot');
+    src: url('polices/edo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/edo-webfont.woff2') format('woff2'),
+         url('polices/edo-webfont.woff') format('woff'),
+         url('polices/edo-webfont.ttf') format('truetype'),
+         url('polices/edo-webfont.svg#edoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('polices/CaviarDreams-webfont.eot');
+    src: url('polices/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/CaviarDreams-webfont.woff2') format('woff2'),
+         url('polices/CaviarDreams-webfont.woff') format('woff'),
+         url('polices/CaviarDreams-webfont.ttf') format('truetype'),
+         url('polices/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-size: 1.15em;
+    background-color: #333333;
+    font-family: Verdana, 'caviar_dreamsregular', 'Times New Roman', Serif;
+    color: white;
+}
+
+/* Header */
+
+header
+{
+    margin : 0px;
+    height: 318px;
+    background-image: url('images_Accueil/fond_accueil.jpg');
+    background-size: 100% auto;
+    border-bottom: 5px #86CAA3 solid;
+}
+
+
+.logo
+{
+    width: auto;
+    height: 200px;
+}
+
+h1
+{
+    font-family : 'edoregular', 'Times New Roman', Serif;
+    color : #86CAA3 ;
+    font-size: 3em;
+    text-align: center;
+    font-weight: normal;
+}
+
+footer
+{
+    border-top: 5px #86CAA3 solid;
+}
+
+footer nav
+{
+    border-top: none;
+    border-bottom: none;
+    background-color:
+    font-size: 0.5em;
+}
+
+/* Table des matières */
+
+nav
+{
+	border-bottom: 5px #86CAA3 solid;
+    width: 80%;
+    margin: auto;
+    font-size: 1.13em;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li
+{
+    margin-right: 15px;
+
+}
+
+nav a
+{
+    color: #86CAA3;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #86CAA3;
+    border-bottom: 3px solid #86CAA3;
+}
+
+/* Corps */
+
+.Corps
+{
+    width: 80%;
+    margin: auto;
+    background-color: #333333 ;
+}
+
+h3
+{
+    font-family : 'edoregular', 'Times New Roman', Serif;
+    color : #86CAA3 ;
+    font-size: 3em;
+    text-align: left;
+    font-weight: normal; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h4
+{
+    font-family: 'edoregular', 'Times New Roman', Serif;
+    font-size : 2em;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Accueil */
+
+
+.Article, .Carte
+{
+    margin : 50px 0px 50px 0px ;
+    padding: 20px;
+    border-top: 2px solid #86CAA3 ;
+    border-bottom: 2px solid #86CAA3;
+}
+
+.carte_google
+{
+    margin: auto;
+    width: 80%;
+}
+
+.Carte p
+{
+    text-align: center;
+    font-style: italic; 
+}
+
+.Photos 
+{
+    width: 100%;
+    margin: auto;
+
+}
+
+.Photos img
+{
+    max-width: 19%;
+    height: auto;
+}
+
+video
+{
+    width: 100%;
+    height: auto;
+}
+
+a
+{
+    background-color: #333333;
+    font-family: Verdana, 'caviar_dreamsregular', 'Times New Roman', Serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Projet */
+
+
+.header_projets
+{
+    margin : 0px;
+    height: auto;
+    background-color: #333333;
+    background-size: 100% auto;
+    background-image: none;
+}
+
+.google_docs
+{
+    margin: auto;
+    text-align: center;
+}
+
+.google_docs iframe
+{
+    width: 70%;
+    height: 1000px;
+}
+
+/* France */
+
+#afficher_Annecy1, #masquer_Annecy1
+{
+    border-top: 1px solid #86CAA3 ;
+    border-bottom: 1px solid #86CAA3;
+}
+
+#afficher_Annecy1 {
+   width:100%;
+}
+#secret_Annecy1 {
+   display:none;
+}
+#afficher_Annecy1:target #secret_Annecy1 {
+   display:block
+}
+.masquer {
+   display:none;
+}
+#afficher_Annecy1:target .masquer {
+   display:inline;
+}
+#afficher_Annecy1:target .afficher {
+   display:none;
+}
+
+#afficher_Annecy2, #masquer_Annecy2
+{
+    border-top: 1px solid #86CAA3 ;
+    border-bottom: 1px solid #86CAA3;
+}
+
+#afficher_Annecy2 {
+   width:100%;
+}
+#secret_Annecy2 {
+   display:none;
+}
+#afficher_Annecy2:target #secret_Annecy2 {
+   display:block
+}
+.masquer {
+   display:none;
+}
+#afficher_Annecy2:target .masquer {
+   display:inline;
+}
+#afficher_Annecy2:target .afficher {
+   display:none;
+}
+
+
+#afficher_Annecy3, #masquer_Annecy3
+{
+    border-top: 1px solid #86CAA3 ;
+    border-bottom: 1px solid #86CAA3;
+}
+
+#afficher_Annecy3 {
+   width:100%;
+}
+#secret_Annecy3 {
+   display:none;
+}
+#afficher_Annecy3:target #secret_Annecy3 {
+   display:block
+}
+.masquer {
+   display:none;
+}
+#afficher_Annecy3:target .masquer {
+   display:inline;
+}
+#afficher_Annecy3:target .afficher {
+   display:none;
+}
+
+
+#afficher_Paris1, #masquer_Paris1
+{
+    border-top: 1px solid #86CAA3 ;
+    border-bottom: 1px solid #86CAA3;
+}
+
+#afficher_Paris1 {
+   width:100%;
+}
+#secret_Paris1 {
+   display:none;
+}
+#afficher_Paris1:target #secret_Paris1 {
+   display:block
+}
+.masquer {
+   display:none;
+}
+#afficher_Paris1:target .masquer {
+   display:inline;
+}
+#afficher_Paris1:target .afficher {
+   display:none;
+}
+
+/* Londres */
+
+#afficher_Londres1, #masquer_Londres1
+{
+    border-top: 1px solid #86CAA3 ;
+    border-bottom: 1px solid #86CAA3;
+}
+
+#afficher_Londres1 {
+   width:100%;
+}
+#secret_Londres1 {
+   display:none;
+}
+#afficher_Londres1:target #secret_Londres1 {
+   display:block
+}
+.masquer {
+   display:none;
+}
+#afficher_Londres1:target .masquer {
+   display:inline;
+}
+#afficher_Londres1:target .afficher {
+   display:none;
+}
+
+#afficher_Londres2, #masquer_Londres2
+{
+    border-top: 1px solid #86CAA3 ;
+    border-bottom: 1px solid #86CAA3;
+}
+
+#afficher_Londres2 {
+   width:100%;
+}
+#secret_Londres2 {
+   display:none;
+}
+#afficher_Londres2:target #secret_Londres2 {
+   display:block
+}
+.masquer {
+   display:none;
+}
+#afficher_Londres2:target .masquer {
+   display:inline;
+}
+#afficher_Londres2:target .afficher {
+   display:none;
+}
+
+#afficher_Londres3, #masquer_Londres3
+{
+    border-top: 1px solid #86CAA3 ;
+    border-bottom: 1px solid #86CAA3;
+}
+
+#afficher_Londres3 {
+   width:100%;
+}
+#secret_Londres3 {
+   display:none;
+}
+#afficher_Londres3:target #secret_Londres3 {
+   display:block
+}
+.masquer {
+   display:none;
+}
+#afficher_Londres3:target .masquer {
+   display:inline;
+}
+#afficher_Londres3:target .afficher {
+   display:none;
+}
+
+#afficher_Londres4, #masquer_Londres4
+{
+    border-top: 1px solid #86CAA3 ;
+    border-bottom: 1px solid #86CAA3;
+}
+
+#afficher_Londres4 {
+   width:100%;
+}
+#secret_Londres4 {
+   display:none;
+}
+#afficher_Londres4:target #secret_Londres4 {
+   display:block
+}
+.masquer {
+   display:none;
+}
+#afficher_Londres4:target .masquer {
+   display:inline;
+}
+#afficher_Londres4:target .afficher {
+   display:none;
+}
